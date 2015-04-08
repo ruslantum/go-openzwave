@@ -1,7 +1,7 @@
 package openzwave
 
 import (
-	"github.com/ninjasphere/go-openzwave/NT"
+	"github.com/ruslantum/go-openzwave/NT"
 )
 
 const (

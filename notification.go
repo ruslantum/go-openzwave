@@ -1,6 +1,6 @@
 package openzwave
 
-// #cgo LDFLAGS: -lopenzwave -Lgo/src/github.com/ninjasphere/go-openzwave/openzwave
+// #cgo LDFLAGS: -lopenzwave -Lgo/src/github.com/ruslantum/go-openzwave/openzwave
 // #cgo CPPFLAGS: -Iopenzwave/cpp/src/platform -Iopenzwave/cpp/src -Iopenzwave/cpp/src/value_classes
 //
 // #include "api.h"
@@ -9,8 +9,8 @@ import "C"
 import (
 	"fmt"
 
-	"github.com/ninjasphere/go-openzwave/CODE"
-	"github.com/ninjasphere/go-openzwave/NT"
+	"github.com/ruslantum/go-openzwave/CODE"
+	"github.com/ruslantum/go-openzwave/NT"
 )
 
 // The type of notifications received from the API

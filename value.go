@@ -1,6 +1,6 @@
 package openzwave
 
-// #cgo LDFLAGS: -lopenzwave -Lgo/src/github.com/ninjasphere/go-openzwave/openzwave
+// #cgo LDFLAGS: -lopenzwave -Lgo/src/github.com/ruslantum/go-openzwave/openzwave
 // #cgo CPPFLAGS: -Iopenzwave/cpp/src/platform -Iopenzwave/cpp/src -Iopenzwave/cpp/src/value_classes
 //
 // #include "api.h"
@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/ninjasphere/go-openzwave/CC"
-	"github.com/ninjasphere/go-openzwave/VT"
+	"github.com/ruslantum/go-openzwave/CC"
+	"github.com/ruslantum/go-openzwave/VT"
 )
 
 type ValueID struct {

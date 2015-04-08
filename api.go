@@ -14,7 +14,7 @@ package openzwave
 // All 'go' packages that have this package as a dependency should include such a go link and will then inherit the library built in this package.
 //
 
-// #cgo LDFLAGS: -lopenzwave -Lgo/src/github.com/ninjasphere/go-openzwave/openzwave
+// #cgo LDFLAGS: -lopenzwave -Lgo/src/github.com/ruslantum/go-openzwave/openzwave
 // #cgo CPPFLAGS: -Iopenzwave/cpp/src/platform -Iopenzwave/cpp/src -Iopenzwave/cpp/src/value_classes
 // #include "api.h"
 import "C"
