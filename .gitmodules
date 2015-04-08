@@ -1,0 +1,3 @@
+[submodule "openzwave"]
+	path = openzwave
+	url = ssh://git@github.com/ruslantum/open-zwave.git
